@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #111827;
+  --foreground: #ffffff;
+  --border-color: #374151;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.display-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-half {
+  width: 50%;
+  padding-right: 10px;
+}
+
+.right-half {
+  width: 50%;
+  padding-left: 10px;
+  background-color: var(--background);
+  border-left: 1px solid var(--border-color);
+}
+
+/* Additional styles for the login form */
+.bg-gray-950 {
+  background-color: #030712;
+}
+
+.bg-gray-900 {
+  background-color: #111827;
+}
+
+.bg-gray-800 {
+  background-color: #1f2937;
+}
+
+.box-sign-login-orange-dim{
+  background-color: #2C2011;
+}
+
+.text-sign-login-orange{
+  color: #DE8D14;
+}
+
+.text-gray-400 {
+  color: #9ca3af;
+}
+
+.border-gray-700 {
+  border-color: #374151;
+}
+
+.placeholder-gray-400::placeholder {
+  color: #9ca3af;
+}
+
+.hover\:bg-green-700:hover {
+  background-color: #15803d;
+}
+
+.hover\:bg-orange-500:hover {
+  background-color: #f97316;
+}
+
+.hover\:text-white:hover {
+  color: #ffffff;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
