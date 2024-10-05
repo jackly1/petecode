@@ -2,7 +2,7 @@
 
 **Petecode** is a critique of modern short form brainrot media, and the leetcode grind culture of cs majors seeking swe jobs. 
 
-This project was made for MHacks 2024 by Jack Lille Yerington (jackly1), Ammar Ateya (ammarateya), Martín Stier (martinstier), and Amanda Juvera (amandajuvera). 
+This project was made for MHacks 2024 by Ammar Ateya (ammarateya), Jack Lille Yerington (jackly1), Martín Stier (martinstier), and Amanda Juvera (amandajuvera). 
 
 ![External Image](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/051/756/datas/gallery.jpg)
 
