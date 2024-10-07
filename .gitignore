@@ -19,6 +19,7 @@ venv3/
 pip-log.txt
 coverage/
 *.sqlite3
+keys
 
 # JavaScript
 bundle.js
