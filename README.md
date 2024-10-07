@@ -2,6 +2,8 @@
 
 **Petecode** is a critique of modern short form brainrot media, and the leetcode grind culture of cs majors seeking swe jobs. 
 
+This project was made for MHacks 2024 by Ammar Ateya (ammarateya), Jack Lille Yerington (jackly1), Martín Stier (martinstier), and Amanda Juvera (amandajuvera). 
+
 ![External Image](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/051/756/datas/gallery.jpg)
 
 
@@ -35,11 +37,6 @@ chmod +x run_project.sh
 that will do everything for you pretty much, as long as you have went into the backend folder to set up your env keys
 
 ### Note Not all requirements might be installed automatically, so you may need to manually install them using `pip` and `npm` if you encounter any issues. To ensure compatibility, Python 3 is recommended.
-
-if u have a lotttt of trouble i recommend downloading, splitting into two directories, and opening a venv in the directory with the backend.
-
-reach out at ammarat[at]umich[dot]edu or make an issue if u need help, this was a fun hackathon project
-
 
 enjoy!
 
