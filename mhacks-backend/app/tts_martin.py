@@ -5,9 +5,9 @@ CHUNK_SIZE = 1024
 url = "https://api.elevenlabs.io/v1/text-to-speech/MW0jbeKljDZKAdR2YoHV"
 
 headers = {
-  "Accept": "audio/mpeg",
-  "Content-Type": "application/json",
-  "xi-api-key": os.environ.get("XI_API_KEY")
+    "Accept": "audio/mpeg",
+    "Content-Type": "application/json",
+    "xi-api-key": os.environ.get("XI_API_KEY")
 }
 
 def text_to_speech(prompt: str | None, filename: str):

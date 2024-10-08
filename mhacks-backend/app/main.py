@@ -43,7 +43,7 @@ class UserLogin(BaseModel):
 class SubmitProblem(BaseModel):
     url: str
     user_id: str
-    
+
 class AudioGenerationRequest(BaseModel):
     url: str
     language: str
@@ -63,9 +63,9 @@ def get_problem_id_by_url(request_url):
 async def generate_audio(request: AudioGenerationRequest):
     try:
         problem_name = extract_problem_name(request.url)
-        
+
         baml_groq_response = await get_answer(request.url, request.language)
-  
+
         audio_files = []
         parts = [
             ("introduction", baml_groq_response.introduction),
@@ -83,7 +83,7 @@ async def generate_audio(request: AudioGenerationRequest):
                 print(f"Audio file created: {file_path}")
             else:
                 raise HTTPException(status_code=500, detail=f"Failed to generate {part_name} audio file.")
-                    
+
         return {
             "message": "Audio files generated successfully",
             "url": request.url,
@@ -95,7 +95,7 @@ async def generate_audio(request: AudioGenerationRequest):
     except Exception as e:
         print(f"Error in generate_audio: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
- 
+
 @app.delete("/clear-audio/")
 async def clear_audio(description: str, language: str):
     try:
