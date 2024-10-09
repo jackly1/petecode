@@ -18,7 +18,7 @@ To get the project up and running, follow the steps below.
 You need to set up the following environment variables before running the project:
 
 - `GROQ_API_KEY`: Your API key for GROQ.
-- `XI_API_KEY`: Your API key for eleven labs, where you can use that api endpoint that is in main.py I believe.
+- `XI_API_KEY`: Your API key for eleven labs, where you can replace the api endpoint that is in tts_martin.py with a trained voice model from eleven labs on the same acount that the API key is associated with.
 - `OPENAI_API_KEY`: Same as the GROQ key (used as a fallback key).
 
 ### Installation
